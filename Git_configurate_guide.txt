@@ -43,5 +43,6 @@ git add <filename.ext>		// must be exist in the given repo Folder
 git commit -m "<Commit msg>"
 git tag -a <v1.0.0> -m "<new tag>"
 git push
+git push origin --tags
 
 
