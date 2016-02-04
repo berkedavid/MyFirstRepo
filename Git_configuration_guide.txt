@@ -1,0 +1,48 @@
+
+-------------------------------------------Git installing (Ubuntu cmd)-----------------------------------------------
+1. Install github on your system
+2. Add your personal pareameters
+	2.1 git config --global user.name "<your_name>"
+	2.2 git config --global user.email "<your_valid_email_address>"
+3. Generate ssh pub key pair
+	3.1 ssh -keygen -t rsa -b 4096 -C "<your_valid_email_address>"
+	3.2 [Press enter]
+	3.3 [Press enter | Add a pwd]
+	3.4 [press enter | Repeat your pwd]
+4. Upload your ssh pub. key into GitHub
+	4.1 cat ~/.ssh/id_rsa.pub (only pub key)
+	4.2 cut the whole key value:
+"""
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCvozc781/TFHP+qe7kUkLazOl2npAq1Nbtdb/vgLQJLSCPV41/			
+NqM7TzSzeSmeRNMw2rMZTe2mwMiusEFNWPRr7yova5TkotsgRaf/crnwlTIjuzWU08LJT1SUJ+UjY1TRDTU7KYM7
+b0rQnXo7/kR5EHCWDLu7sZxq5VB51N68db+u9BkAFvgBGkrY8ETAgRiCPSGR7s4L8gkMw6T92WYJOHx+8vX/s8Bb
+cD30IgNY0yZCc1rKrbj6EQw1oaexjLdVPU6kf5TNobeGIdz6VutOpKyoDkiclxMd05rMniXr4JeFpXW+guYXsx+W
+omQhLEsAoIS6yuarIKHUFGvpKPiY96j4W//ZXMLNY4mWkw/0rxV25tSUOcOwjvHvUY2Zis62IMceL/NOBBTr3QHf
+OfSc4a2bQYWxPyzEapyqf3x8io8hIZm7NJWjDfPc4BZRRdP2qva/pDdam4t/2WL7P8hNi6Js1zr1Qwyo3FOwTkkD
+qmrTdVw2ys6hcHVBkuQYIQR5dxx1PUPwf0tFp07hNVXJ57qaiszyBvB7A1L/w04fizJZOCyfd/D3HSFhTxCLgbIF
+baWPjkrKGA5yC75FktDsb5j5yWhw0dM9cgJC9oOF9c0/q3BIr7RBK+KF4PF6cepsxHyWDAnKS/KmNM79lXdpTOEz
+V5uFRmRc7g4JOtZrSQ== david.berke@dbx.hu
+"""
+	4.3 GitHub GUI --> Own profile --> Settings --> SSH keys --> New SSH key
+		4.3.1 Fill the "Title" field (it will be the name of the ssh key)
+		4.3.2 Fill the "Key" field (copy/paste your pub. key)
+		4.3.4 Click "Add SSH key" button
+		4.3.5 <<OPCIONAL>>: check your e-mail about "A new public key was added..."
+5. FINISH
+--------------------------------------------------------------------------------------------------------------------
+
+-------------------------------------------Clone, add, commit, oush-------------------------------------------------
+git clone git@github.com:dbx/mkbb.git <clone_repo_name>		// cloning the rep into your home Folder (by default)
+	/* With cloning mech. a remote repo tracked automatically! */
+git remote -v 			// list the remote repos (cloned repo)
+git remote show origin		// show tracked remote repo
+
+	<<Let's get working...>>
+
+git add <filename.ext>		// must be exist in the given repo Folder
+git commit -m "<Commit msg>"
+git tag -a <v1.0.0> -m "<new tag>"
+git push
+git push origin --tags
+
+
