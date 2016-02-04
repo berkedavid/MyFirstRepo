@@ -13,7 +13,14 @@
 	4.1 cat ~/.ssh/id_rsa.pub (only pub key)
 	4.2 cut the whole key value:
 """
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCvozc781/TFHP+qe7kUkLazOl2npAq1Nbtdb/vgLQJLSCPV41/			NqM7TzSzeSmeRNMw2rMZTe2mwMiusEFNWPRr7yova5TkotsgRaf/crnwlTIjuzWU08LJT1SUJ+UjY1TRDTU7KYM7b0rQnXo7/kR5EHCWDLu7sZxq5VB51N68db+u9BkAFvgBGkrY8ETAgRiCPSGR7s4L8gkMw6T92WYJOHx+8vX/s8BbcD30IgNY0yZCc1rKrbj6EQw1oaexjLdVPU6kf5TNobeGIdz6VutOpKyoDkiclxMd05rMniXr4JeFpXW+guYXsx+WomQhLEsAoIS6yuarIKHUFGvpKPiY96j4W//ZXMLNY4mWkw/0rxV25tSUOcOwjvHvUY2Zis62IMceL/NOBBTr3QHfOfSc4a2bQYWxPyzEapyqf3x8io8hIZm7NJWjDfPc4BZRRdP2qva/pDdam4t/2WL7P8hNi6Js1zr1Qwyo3FOwTkkDqmrTdVw2ys6hcHVBkuQYIQR5dxx1PUPwf0tFp07hNVXJ57qaiszyBvB7A1L/w04fizJZOCyfd/D3HSFhTxCLgbIFbaWPjkrKGA5yC75FktDsb5j5yWhw0dM9cgJC9oOF9c0/q3BIr7RBK+KF4PF6cepsxHyWDAnKS/KmNM79lXdpTOEzV5uFRmRc7g4JOtZrSQ== david.berke@dbx.hu
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCvozc781/TFHP+qe7kUkLazOl2npAq1Nbtdb/vgLQJLSCPV41/			NqM7TzSzeSmeRNMw2rMZTe2mwMiusEFNWPRr7yova5TkotsgRaf/crnwlTIjuzWU08LJT1SUJ+UjY1TRDTU7KYM7
+b0rQnXo7/kR5EHCWDLu7sZxq5VB51N68db+u9BkAFvgBGkrY8ETAgRiCPSGR7s4L8gkMw6T92WYJOHx+8vX/s8Bb
+cD30IgNY0yZCc1rKrbj6EQw1oaexjLdVPU6kf5TNobeGIdz6VutOpKyoDkiclxMd05rMniXr4JeFpXW+guYXsx+W
+omQhLEsAoIS6yuarIKHUFGvpKPiY96j4W//ZXMLNY4mWkw/0rxV25tSUOcOwjvHvUY2Zis62IMceL/NOBBTr3QHf
+OfSc4a2bQYWxPyzEapyqf3x8io8hIZm7NJWjDfPc4BZRRdP2qva/pDdam4t/2WL7P8hNi6Js1zr1Qwyo3FOwTkkD
+qmrTdVw2ys6hcHVBkuQYIQR5dxx1PUPwf0tFp07hNVXJ57qaiszyBvB7A1L/w04fizJZOCyfd/D3HSFhTxCLgbIF
+baWPjkrKGA5yC75FktDsb5j5yWhw0dM9cgJC9oOF9c0/q3BIr7RBK+KF4PF6cepsxHyWDAnKS/KmNM79lXdpTOEz
+V5uFRmRc7g4JOtZrSQ== david.berke@dbx.hu
 """
 	4.3 GitHub GUI --> Own profile --> Settings --> SSH keys --> New SSH key
 		4.3.1 Fill the "Title" field (it will be the name of the ssh key)
