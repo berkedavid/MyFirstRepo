@@ -31,7 +31,7 @@ V5uFRmRc7g4JOtZrSQ== david.berke@dbx.hu
 5. FINISH
 --------------------------------------------------------------------------------------------------------------------
 
--------------------------------------------Clone, add, commit, push-------------------------------------------------
+-------------------------------------------Clone, add, commit, oush-------------------------------------------------
 git clone git@github.com:dbx/mkbb.git <clone_repo_name>		// cloning the rep into your home Folder (by default)
 	/* With cloning mech. a remote repo tracked automatically! */
 git remote -v 			// list the remote repos (cloned repo)
