@@ -13,7 +13,7 @@
 	4.1 cat ~/.ssh/id_rsa.pub (only pub key)
 	4.2 cut the whole key value:
 """
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCvozc781/TFHP+qe7kUkLazOl2npAq1Nbtdb/vgLQJLSCPV41/			
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCvozc781/TFHP+qe7kUkLazOl2npAq1Nbtdb/vgLQJLSCPV41/
 NqM7TzSzeSmeRNMw2rMZTe2mwMiusEFNWPRr7yova5TkotsgRaf/crnwlTIjuzWU08LJT1SUJ+UjY1TRDTU7KYM7
 b0rQnXo7/kR5EHCWDLu7sZxq5VB51N68db+u9BkAFvgBGkrY8ETAgRiCPSGR7s4L8gkMw6T92WYJOHx+8vX/s8Bb
 cD30IgNY0yZCc1rKrbj6EQw1oaexjLdVPU6kf5TNobeGIdz6VutOpKyoDkiclxMd05rMniXr4JeFpXW+guYXsx+W
@@ -45,4 +45,6 @@ git tag -a <v1.0.0> -m "<new tag>"
 git push
 git push origin --tags
 
+2015.03.23
+mod. by BD
 
